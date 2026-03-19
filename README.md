@@ -21,6 +21,7 @@ func new --name MyCronFunction --template "TimerTrigger"
 Make sure a storage emulator is enabled or set the "AzureWebJobsStorage" option with your storage connection string information in local.settings.json.
 
 5. Deploy the Azure function: Before deploying make sure you have logged in az login in your terminal. 
+
 az functionapp create
   --resource-group <provide resource group name here>
   --consumption-plan-location <provide location here>
