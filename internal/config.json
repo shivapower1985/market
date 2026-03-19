@@ -1,0 +1,5 @@
+{
+  "1000": {
+    "url": "https://mis.nyiso.com/public/csv/damlbmp/{date}damlbmp_zone.csv"
+  }
+}
